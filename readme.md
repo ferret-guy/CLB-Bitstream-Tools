@@ -53,15 +53,6 @@ You can play with thease tools in your broswer [here](https://mcp-clb.markomo.me
 
 ## Bitstream Map
 
-<style>
-
-.bitgrid-table { border-collapse: collapse; font-family: monospace; font-size: 0.8em; margin-bottom: 1em; }
-.bitgrid-table th, .bitgrid-table td { border: 1px solid #ccc; padding: 3px 5px; text-align: center; }
-.bitgrid-table th { background-color: #f0f0f0; }
-.bitgrid-base { font-weight: bold; background-color: #f8f8f8; }
-.bitgrid-data code { white-space: nowrap; }
-
-</style>
 <table class="bitgrid-table">
 <thead>
 <tr>
