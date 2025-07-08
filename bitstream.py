@@ -228,7 +228,7 @@ class Bitstream(FASM):
                 num_bits=16,
             )
             # FLOPSEL
-            self._set_bit(get_flopsel(idx), int(cfg.FLOPSEL == FLOPSEL.ENABLE))
+            self._set_bit(get_flopsel(idx), int(cfg.FLOPSEL == FLOPSEL.ENABLE.value))
             # inputs
             maps = get_lut_input_bit_addresses(idx)
             _int_to_bits(
